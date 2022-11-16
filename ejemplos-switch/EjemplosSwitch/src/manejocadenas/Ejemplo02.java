@@ -7,16 +7,16 @@ package manejocadenas;
 
 /**
  *
- * @author reroes
+ * @author SALA I
  */
-public class EjemploCadenas {
+public class Ejemplo02 {
     public static void main(String[] args) {
-        String ciudad = "LOja";
-        ciudad = ciudad.toUpperCase();
-        System.out.printf("%s\n", ciudad.toLowerCase());
-        System.out.printf("%s\n", ciudad.toUpperCase());
-        System.out.printf("%s\n", ciudad);
+        String pais;
         
+        pais = "Portugal";
         
+        char letra = pais.charAt(0);
+        System.out.printf("%s\n", letra);
     }
+    
 }
